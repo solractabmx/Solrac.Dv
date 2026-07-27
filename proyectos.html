@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos - Solrac.dev</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" href="logo.png">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+body{font-family:'Space Grotesk',sans-serif;background:#080808;color:#fff}
+.glass{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);backdrop-filter:blur(12px)}
+.card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,0.2)}
+</style>
+</head>
+<body>
+<nav class="flex justify-between items-center p-6 max-w-7xl mx-auto border-b border-white/5">
+  <a href="/" class="flex items-center gap-2 font-black"><img src="logo.png" class="w-8 h-8 rounded bg-white p-1"> SOLRAC.DEV</a>
+  <div class="flex gap-4 text-[11px] tracking-widest"><a href="/" class="text-gray-500 hover:text-white">INICIO</a><a href="https://github.com/solractabmx" class="text-white">GITHUB <i class="fa-brands fa-github"></i></a></div>
+</nav>
+
+<section class="max-w-7xl mx-auto px-6 pt-12 pb-10">
+  <h1 class="text-5xl md:text-7xl font-black leading-[0.9]">PROYECTOS<br><span class="text-transparent" style="-webkit-text-stroke:1px #444">2024-2026</span></h1>
+  <p class="text-gray-400 mt-4 text-sm max-w-lg">Apps nativas en Kotlin/Java y apps híbridas WebView. Todo hecho en Valladolid, Yuc.</p>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+
+    <div class="card glass rounded-[20px] p-6">
+      <div class="flex justify-between"><span class="text-[9px] border border-white/20 px-2 py-1 rounded-full text-gray-400">NATIVO</span><span class="text-[9px] text-yellow-400">● PRÓXIMAMENTE</span></div>
+      <h3 class="font-black text-xl mt-5">Punto de Venta Nativo</h3>
+      <p class="text-xs text-gray-400 mt-2 leading-relaxed">Kotlin + Room + Firebase. 100% offline, impresión bluetooth.</p>
+      <div class="flex gap-1 mt-4 text-[9px]"><span class="bg-white/10 px-2 py-1 rounded">KOTLIN</span><span class="bg-white/10 px-2 py-1 rounded">ROOM</span><span class="bg-white/10 px-2 py-1 rounded">FIREBASE</span></div>
+      <div class="mt-6 border border-white/10 text-center py-3 rounded-full text-[11px] font-bold text-gray-500 tracking-widest">PRÓXIMAMENTE</div>
+    </div>
+
+    <div class="card glass rounded-[20px] p-6">
+      <div class="flex justify-between"><span class="text-[9px] border border-white/20 px-2 py-1 rounded-full text-gray-400">HÍBRIDA</span><span class="text-[9px] text-yellow-400">● PRÓXIMAMENTE</span></div>
+      <h3 class="font-black text-xl mt-5">App Restaurante</h3>
+      <p class="text-xs text-gray-400 mt-2 leading-relaxed">Menú digital + carrito + pedido directo a WhatsApp API.</p>
+      <div class="flex gap-1 mt-4 text-[9px]"><span class="bg-white/10 px-2 py-1 rounded">HTML5</span><span class="bg-white/10 px-2 py-1 rounded">JS</span><span class="bg-white/10 px-2 py-1 rounded">WEBVIEW</span></div>
+      <div class="mt-6 border border-white/10 text-center py-3 rounded-full text-[11px] font-bold text-gray-500 tracking-widest">PRÓXIMAMENTE</div>
+    </div>
+
+    <div class="card glass rounded-[20px] p-6">
+      <div class="flex justify-between"><span class="text-[9px] border border-white/20 px-2 py-1 rounded-full text-gray-400">NATIVO</span><span class="text-[9px] text-yellow-400">● PRÓXIMAMENTE</span></div>
+      <h3 class="font-black text-xl mt-5">Taxi Valladolid</h3>
+      <p class="text-xs text-gray-400 mt-2 leading-relaxed">Java + Google Maps + FCM. Pide taxi en tiempo real.</p>
+      <div class="flex gap-1 mt-4 text-[9px]"><span class="bg-white/10 px-2 py-1 rounded">JAVA</span><span class="bg-white/10 px-2 py-1 rounded">MAPS</span><span class="bg-white/10 px-2 py-1 rounded">FCM</span></div>
+      <div class="mt-6 border border-white/10 text-center py-3 rounded-full text-[11px] font-bold text-gray-500 tracking-widest">PRÓXIMAMENTE</div>
+    </div>
+
+    <div class="card glass rounded-[20px] p-6">
+      <div class="flex justify-between"><span class="text-[9px] border border-white/20 px-2 py-1 rounded-full text-gray-400">HÍBRIDA</span><span class="text-[9px] text-yellow-400">● PRÓXIMAMENTE</span></div>
+      <h3 class="font-black text-xl mt-5">Cotizador Pro</h3>
+      <p class="text-xs text-gray-400 mt-2 leading-relaxed">Genera cotizaciones en PDF y envía por WhatsApp.</p>
+      <div class="flex gap-1 mt-4 text-[9px]"><span class="bg-white/10 px-2 py-1 rounded">JS</span><span class="bg-white/10 px-2 py-1 rounded">PDF</span><span class="bg-white/10 px-2 py-1 rounded">PWA</span></div>
+      <div class="mt-6 border border-white/10 text-center py-3 rounded-full text-[11px] font-bold text-gray-500 tracking-widest">PRÓXIMAMENTE</div>
+    </div>
+
+    <div class="glass rounded-[20px] p-6 border-dashed flex flex-col justify-center">
+      <div class="text-3xl opacity-20"><i class="fa-solid fa-plus"></i></div>
+      <h3 class="font-black text-xl mt-3">¿Tu app aquí?</h3>
+      <p class="text-xs text-gray-500 mt-2">Cotización en 10 min. Entrega 3-7 días.</p>
+      <a href="https://wa.me/529851222435?text=Hola%20Solrac%20quiero%20cotizar%20mi%20app" class="mt-6 bg-white text-black text-center py-3 rounded-full font-black text-xs"><i class="fa-brands fa-whatsapp"></i> COTIZAR</a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="text-center text-gray-600 text-[10px] py-12 tracking-widest flex justify-center gap-6">
+  <a href="/terminos.html">TÉRMINOS</a><a href="/privacidad.html">PRIVACIDAD</a><span>© 2026 SOLRAC.DEV</span>
+</footer>
+</body>
+</html>
